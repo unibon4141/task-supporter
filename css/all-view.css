@@ -1,0 +1,70 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.site-width{
+  width:960px;
+  margin-right:auto;
+  margin-left: auto;
+}
+h1 {
+  text-align:center;
+  margin-top: 20px;
+  font-size:40px;
+  font-family: "M PLUS Rounded 1c";
+}
+li {
+  list-style: none;
+}
+
+/* ナビゲーション */
+.nav-item{
+  float:left;
+  width:50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background:#3a3a3a;
+}
+.nav-item:hover{
+  background:#828282;
+}
+.nav-item a{
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+}
+.nav-wrap{
+  overflow: hidden;
+  padding-left: 0;
+}
+
+.task-container{
+  padding-left: 0;
+}
+
+/* タスク一覧 */
+.task-container ul{
+  padding-left: 0;
+}
+
+.task-item {
+  background:#E0EEFF;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  width:50%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.task-name{
+  float:left;
+  width:20%;
+  border-right:2px solid black;
+}
+.task-content{
+  padding-left:10px;
+float:left;
+}

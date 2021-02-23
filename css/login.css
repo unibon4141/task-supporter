@@ -1,0 +1,41 @@
+ログイン
+body{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  width:960px;
+  margin: 0 auto;
+}
+h2{
+  text-align:center;
+  font-size:40px;
+  font-family: "M PLUS Rounded 1c"
+}
+form{
+  width:40%;
+  margin: 0 auto;
+  font-size:25px;
+  overflow: hidden;
+}
+input{
+  box-sizing:border-box;
+  display:block;
+  border:none;
+}
+input[type='text'],input[type='password']{
+  background:#F1E6E4;
+  padding:10px;
+  margin-bottom: 10px;
+  width:100%;
+}
+input[type="submit"] {
+  margin-top:20px;
+  background:#3a3a3a;
+  color:white;
+  width:30%;
+  padding-top:10px;
+  padding-bottom: 10px;
+  float:right;
+}
+

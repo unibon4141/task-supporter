@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,p {
+  text-align: center;
+}
+h1{
+  font-size:60px;
+  font-family: 'Secular One', sans-serif;
+}
+p{
+  font-size:25px;
+}
+
+.site-width {
+  width: 960px;
+}
+.main{
+  margin: 0 auto;
+}
+ul {
+  padding: 0;
+  width:30%;
+  overflow:hidden;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+  background:#3a3a3a;
+  }
+li:first-child {
+  margin-bottom: 25px;
+}
+
+
+a{
+  text-align: center;
+  display:block;
+  width:200px;
+  margin-right:auto;
+  margin-left:auto;
+  text-decoration: none;
+  color:white;
+  padding: 10px;
+  border:1px solid black;
+}
+.test-user p{
+  font-size:10px;
+}
